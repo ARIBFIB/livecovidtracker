@@ -1,0 +1,81 @@
+/* General styles */
+section {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin: 0.3em 0;
+}
+
+h4 {
+  font-size: 0.9em;
+  margin: 0.2em 0;
+}
+
+.text {
+  color: cadetblue;
+}
+
+/* Grid container */
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Grid items with unique styles */
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine,
+.ten, .eleven, .twelve {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  color: #333;
+}
+
+.one { background-color: #ffe5e5; }
+.two { background-color: #e5f5ff; }
+.three { background-color: #e5ffe5; }
+.four { background-color: #fff5e5; }
+.five { background-color: #f5e5ff; }
+.six { background-color: #e5e5ff; }
+.seven { background-color: #f4e5ff; }
+.eight { background-color: #e5e5ff; }
+.nine { background-color: #e5fff1; }
+.ten { background-color: #e5e5ff; }
+.eleven { background-color: #ffeee5; }
+.twelve { background-color: #ffe5f9; }
+
+
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover,
+.seven:hover,.eight:hover,.nine:hover,.ten:hover,.eleven:hover,.twelve:hover {
+  transform: translateY(-5px);
+}
+
+.one:hover { box-shadow: 0 8px 16px rgba(255, 102, 102, 0.2), 0 12px 40px rgba(255, 102, 102, 0.2); }
+.two:hover { box-shadow: 0 8px 16px rgba(102, 204, 255, 0.2), 0 12px 40px rgba(102, 204, 255, 0.2); }
+.three:hover { box-shadow: 0 8px 16px rgba(102, 255, 102, 0.2), 0 12px 40px rgba(102, 255, 102, 0.2); }
+.four:hover { box-shadow: 0 8px 16px rgba(255, 204, 102, 0.2), 0 12px 40px rgba(255, 204, 102, 0.2); }
+.five:hover { box-shadow: 0 8px 16px rgba(204, 102, 255, 0.2), 0 12px 40px rgba(204, 102, 255, 0.2); }
+.six:hover { box-shadow: 0 8px 16px rgba(153, 153, 255, 0.2), 0 12px 40px rgba(153, 153, 255, 0.2); }
+.seven:hover { box-shadow: 0 8px 16px rgba(153, 153, 255, 0.2), 0 12px 40px rgba(153, 153, 255, 0.2); }
+.eight:hover { box-shadow: 0 8px 16px rgba(153, 153, 255, 0.2), 0 12px 40px rgba(153, 153, 255, 0.2); }
+.nine:hover { box-shadow: 0 8px 16px rgba(153, 153, 255, 0.2), 0 12px 40px rgba(153, 153, 255, 0.2); }
+.ten:hover { box-shadow: 0 8px 16px rgba(153, 153, 255, 0.2), 0 12px 40px rgba(153, 153, 255, 0.2); }
+.eleven:hover { box-shadow: 0 8px 16px rgba(153, 153, 255, 0.2), 0 12px 40px rgba(153, 153, 255, 0.2); }
+.twelve:hover { box-shadow: 0 8px 16px rgba(153, 153, 255, 0.2), 0 12px 40px rgba(153, 153, 255, 0.2); }
