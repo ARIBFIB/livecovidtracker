@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# Live Covid Tracker 
+## I have created by watching youtube Tutorials by - Thapa Technical
+
+
+![Screenshot 2024-08-12 175422](https://github.com/user-attachments/assets/910f3aff-a500-4cb3-836b-f0f1a7e07709)
+
+# Fetching Data from APIs
+
+![image](https://github.com/user-attachments/assets/aee782ae-6ab3-40d7-b1bc-c17246bd65f1)
+
+# Link - https://data.covid19india.org/data.json
+```
+https://data.covid19india.org/data.json
+```
+![image](https://github.com/user-attachments/assets/ada84196-839c-4976-8da1-b0ca2e737316)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
